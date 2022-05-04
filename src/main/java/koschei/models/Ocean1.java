@@ -6,6 +6,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class Ocean1 {
 
+    public Ocean1() {
+    }
+
     @Autowired
     private Island2 island;
 
